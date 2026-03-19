@@ -1,0 +1,67 @@
+export const offices = [
+  {
+    id: "tokyo",
+    name: "東京（本社）",
+    pos: [4.9, -0.1, 0],
+    staff: "80名",
+    address: "東京都新宿区西新宿2-8-1 新宿オークタワー",
+    mapUrl: "https://maps.app.goo.gl/tokyo-hq-dummy",
+    modelPath: "/models/tokyo.glb",
+    modelOffset: [-3.02, 3.81, -0.77],
+    modelRotation: [0.93, 0.17, -0.62],
+    modelScale: 0.50,
+    orbOffset: [1.11, -0.01, 0.00]
+  },
+  {
+    id: "osaka",
+    name: "大阪",
+    pos: [3.0, -0.7, 0],
+    staff: "30名",
+    address: "大阪府大阪市北区大深町4-20 グランフロント大阪",
+    mapUrl: "https://maps.app.goo.gl/osaka-dummy",
+    modelPath: "/models/osaka.glb",
+    modelOffset: [-2.08, 1.10, -1.33],
+    modelRotation: [0.75, 0.34, -0.36],
+    modelScale: 0.50,
+    orbOffset: [0.69, 0.64, -0.06]
+  },
+  {
+    id: "hiroshima",
+    name: "広島",
+    pos: [2.0, -0.6, 0],
+    staff: "15名",
+    address: "広島県広島市中区基町11-10 広島パセーラ",
+    mapUrl: "https://maps.app.goo.gl/hiroshima-dummy",
+    modelPath: "/models/hiroshima.glb",
+    modelOffset: [-3.02, 3.81, -0.77],
+    modelRotation: [0.93, 0.17, -0.62],
+    modelScale: 0.50,
+    orbOffset: [1.11, -0.01, 0.00]
+  },
+  {
+    id: "miyagi",
+    name: "宮城",
+    pos: [5.2, 0.5, 0],
+    staff: "10名",
+    address: "宮城県仙台市青葉区中央1-1-1 仙台駅前ビル",
+    mapUrl: "https://maps.app.goo.gl/miyagi-dummy",
+    modelPath: "/models/miyagi.glb",
+    modelOffset: [-2.27, 2.22, -2.46],
+    modelRotation: [0.75, 0.37, 0.00],
+    modelScale: 0.50,
+    orbOffset: [0.50, 0.64, 0.00]
+  },
+  {
+    id: "okayama",
+    name: "岡山",
+    pos: [2.4, -0.5, 0],
+    staff: "12名",
+    address: "岡山県岡山市北区駅前町1-8-18 岡山駅前ビル",
+    mapUrl: "https://maps.app.goo.gl/okayama-dummy",
+    modelPath: "/models/okayama.glb",
+    modelOffset: [-3.48, 3.34, -1.24],
+    modelRotation: [1.05, 0.11, -0.54],
+    modelScale: 0.50,
+    orbOffset: [0.13, -0.11, 0.27]
+  },
+];
