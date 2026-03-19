@@ -11,8 +11,8 @@ const notoSansJP = Noto_Sans_JP({
 });
 
 export const metadata: Metadata = {
-  title: "Haru-ni Style Web",
-  description: "シームレスな遷移と3D体験",
+  title: "BST株式会社",
+  description: "Web制作に強い会社",
 };
 
 export default function RootLayout({
